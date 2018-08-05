@@ -19,7 +19,7 @@ electronics a bit more.
 <li>Temperature sensors</li>
 <li>Capacitive soil moisture sensor</li>
 </ul>
-Details on nstalling the prerequistes, can be found <a href="INSTALL.md">here</a>
+Details on installing the prerequistes, can be found <a href="INSTALL.md">here</a>
 
 
 <h4>Deployment</h4>
