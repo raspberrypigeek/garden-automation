@@ -33,7 +33,7 @@ Instructions on how to install can be found <a href="https://learn.pimoroni.com/
 </ul>
 That didn't work as it turns out... by default it seems to favour python3 but I wanted to use 2.7. So  I then...
 <ul>
-<li><sudo pip2.7 install automationhat/li>
+<li><sudo pip2.7 install automationhat</li>
 <li>python ~/Pimoroni/automationhat/examples/output.py</li>
 </ul>
 
