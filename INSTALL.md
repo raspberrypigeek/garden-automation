@@ -17,10 +17,10 @@ Instructions on how to install can be found <a href="https://learn.pimoroni.com/
 <li>python ~/Pimoroni/automationhat/examples/output.py</li>
 </ul>
 If all is working, you should see something like:
-<quote>
+```
 {'four': 0.58, 'three': 0.03, 'two': 0.03, 'one': 0.03}
 {'four': 0.55, 'three': 0.03, 'two': 0.03, 'one': 0.03}
 {'four': 0.54, 'three': 0.03, 'two': 0.03, 'one': 0.03}
-...
+```
 </quote>
 <h3>Setting up the client</h3>
