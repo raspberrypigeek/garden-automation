@@ -1,0 +1,3 @@
+Running the client...
+
+>python artemis -location backgarden -task waterpots
