@@ -19,8 +19,28 @@ But in summary, you need to do the following:
 </ul>
 If all is working, you should see something like:
 
->{'four': 0.58, 'three': 0.03, 'two': 0.03, 'one': 0.03}
->{'four': 0.55, 'three': 0.03, 'two': 0.03, 'one': 0.03}
->{'four': 0.54, 'three': 0.03, 'two': 0.03, 'one': 0.03}
+>{'four': 0.58, 'three': 0.03, 'two': 0.03, 'one': 0.03}<br>
+>{'four': 0.55, 'three': 0.03, 'two': 0.03, 'one': 0.03}<br>
+>{'four': 0.54, 'three': 0.03, 'two': 0.03, 'one': 0.03}<br>
 >...
+<h5>The stack...</h5>
+sudo pip install flask
+sudo pip install flasgger
+
+To store the configuration of your system we need somewhere to persist the configuration, obviously configuration files are an option but given that I want this to scale out then Zookeeper would seem to be the sensible choice.
+
+
+>sudo apt-get install zookeeper
+That didn't work so... Plan B:
+cd /opt
+sudo mkdir zookeeper
+cd zookeeper
+sudo wget http://www.mirrorservice.org/sites/ftp.apache.org/zookeeper/zookeeper-3.4.13/zookeeper-3.4.13.tar.gz
+sudo tar -zxvf zookeeper-3.4.13.tar.gz
+cd zookeeper-3.4.13/
+sudo cp conf/zoo_sample.cfg conf/zoo.cfg
+sudo bin/zkServer.sh start
+
+bin/zkCli.sh -server 127.0.0.1:2181
+
 <h3>Setting up the client</h3>

@@ -24,8 +24,8 @@ Details on installing the prerequistes, can be found <a href="INSTALL.md">here</
 
 <h4>Deployment</h4>
 If you want to use this project, you need to install the following: 
-    git clone https://github.com/raspberrypigeek/garden-automation.git
-    cd server/bin
+>git clone https://github.com/raspberrypigeek/garden-automation.git
+>cd server/bin
 
 <h3>Architecture</h3>
 So the initial assumption is that I want to build something that can run on a single Raspberry Pi but if desired be deployed across multiple Raspberry Pis.
